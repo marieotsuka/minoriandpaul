@@ -258,7 +258,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #8098c5;
+  color: rgba(248, 122, 98, 0.5);
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -333,7 +333,7 @@ section h3.section-subheading {
   content: "";
   width: 1px;
   left: 40px;
-  border-left: 2px dotted rgba(248, 122, 98, 0.8);
+  border-left: 2px dotted rgba(248, 122, 98, 0.6);
 }
 
 .timeline > li {
