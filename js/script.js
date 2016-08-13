@@ -1,5 +1,16 @@
 $(document).ready(function(){
 
+  //wow.js init
+  wow = new WOW(
+      {
+      animateClass: 'animated',
+      mobile: false,
+      offset: 100
+    }
+  );
+  wow.init();
+
+
   var root = $('html, body'); 
   $('nav a, #scrollToTop a').click(function() {
     var href = $.attr(this, 'href');

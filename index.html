@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Minori Shimizu &amp; Paul Birkner's Wedding Website">
+    <meta name="description" content="Minori Shimizu &amp; Paul Birkner’s Wedding Website">
     <meta name="author" content="motsuka">
 
     <title>Minori Shimizu &amp; Paul Birkner</title>
@@ -14,21 +14,24 @@
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <!-- Custom Fonts -->
     <script src="https://use.typekit.net/esg8ipq.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>try{Typekit.load({ async: false});}catch(e){}</script>
 
 
     <!-- Theme CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -85,7 +88,7 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container animated wow fadeInDown">
             <img src="img/logos/sheilasparty.png" width="180">
             <h1>Minori Shimizu <span class="br"></br></span><span>&amp;</span> Paul Birkner</h1>
             <p class="intro">
@@ -104,7 +107,7 @@
     <section id="events">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center animated wow fadeIn">
                     <h2 class="section-heading">Events</h2>
                     <h3 class="section-subheading">Please join us at the Ceremony in Wayland and the Reception in Andover.</h3>
   
@@ -116,7 +119,7 @@
                 </div>
 
                 <div class="col-md-4">
-                	<img src="img/ring.png" width="60">
+                	<img src="img/ring.png" width="50">
                     <h4>Wedding Ceremony</h4>
                     <p>
                         4:00 PM, April 22, 2017<br>
@@ -127,7 +130,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                	<img src="img/cheers.png" width="60">
+                	<img src="img/cheers.png" width="50">
                     <h4>Dinner Reception</h4>
                     <p>
                         6:00 PM, April 22, 2017<br>
@@ -149,7 +152,7 @@
     <section id="story" class="bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center animated wow fadeIn">
                     <h2 class="section-heading">Our Story</h2>
                     <h3 class="section-subheading">A little history of our relationship.</h3>
                 </div>
@@ -157,7 +160,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        <li class="animated wow fadeInDown">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/story/halloween.jpg" alt="kids">
                             </div>
@@ -166,13 +169,13 @@
                                     <h4>Growing Up</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p>Paul and Minori lived on Glezen lane growing up as two kids — a boy obsessed with his army gear and a girl who barely spoke English.</p>
+                                    <p>Paul and Minori lived on Glezen lane growing up as two kids — a boy obsessed with his army gear and a girl who barely spoke English. They both attended Red Barn School for pre-school, at which Paul has a memory of themselves playing on the swing set together as their mothers talked.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="animated wow fadeInDown timeline-inverted" data-wow-delay=".2s">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/story/highschool.jpg" alt="hs">
+                                <img class="img-circle img-responsive" src="img/story/highschool.jpg" alt="highschool">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -183,7 +186,21 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="animated wow fadeInDown" data-wow-delay=".2s">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/story/college.jpg" alt="college">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>College</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Once they graduated Wayland High, Paul could not wait to get out of the town and went to USC in Los Angeles. Minori stayed close to her family and her close knit friends from Wayland and attended Boston University. They both turned out to be nerds, (surprise!) and went on to get a degree in Engineering.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="animated wow fadeInDown timeline-inverted" data-wow-delay=".2s">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/story/reunion.jpg" alt="reunion">
                             </div>
@@ -196,7 +213,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="animated wow fadeInDown" data-wow-delay=".2s">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/story/fitness.jpg" alt="fitness">
                             </div>
@@ -209,7 +226,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="animated wow fadeInDown timeline-inverted" data-wow-delay=".2s">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/story/travel.jpg" alt="travel">
                             </div>
@@ -222,7 +239,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="animated wow fadeInDown" data-wow-delay=".2s">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/story/nyc.jpg" alt="nyc">
                             </div>
@@ -235,7 +252,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li class="animated wow fadeInDown timeline-inverted" data-wow-delay=".2s">
                             <div class="timeline-image">
                                 <h4>Be part
                                     <br>of our
@@ -254,8 +271,8 @@
         <div class="container">
             <div class="row">
 	            <div class="col-lg-12 longtext">
-	               <h2 class="section-heading">Our Proposal</h2>
-	               <h3 class="section-subheading">Behind the engagement.</h3>
+	               <h2 class="section-heading animated wow fadeIn">Our Proposal</h2>
+	               <h3 class="section-subheading animated wow fadeIn">Behind the engagement.</h3>
 	              <p> Minori and Paul have planned a trip to NYC every Christmas, so Paul knew that an NYC proposal would be the best possible present. The where came easy, but the “how” was difficult. </p>
 	              <p>
 	              First he had to ask her parent’s permission — a custom not ordinarily done in Japan. It took a little convincing for them to understand why Paul insisted that he picked up their dog, Sheila, in person at 8:00 am before a trip. Kenji, her father, was equally confused as to why such an occasion necessitated him getting out of bed. But he did, and Paul explained that their daughter made him the happiest man on earth. He showed them the ring and they knew it was serious. He kept debating how to do it. Rockerfeller Center? There is a great Christmas Tree, but crazy crowds. Bryant Park? A lesser Christmas Tree, but lesser crowds as well. </p>
@@ -270,17 +287,17 @@
 
     </section>
 
-    <div class="hero" style="background-image: url('img/mp-web5.jpg'); background-position: top left;">
+    <div class="hero" style="background-image: url('img/mp-web8.jpg');">
     </div>
 
     <section id="accommodations">
         <div class="container">
             <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center animated wow fadeIn">
                <h2 class="section-heading">Accommodations</h2>
                <h3 class="section-subheading"> Double Tree Hill by Hilton Boston — Andover</h3>
               <p> We have a room block for the night of April 22 at the Double Tree, a ten minute drive from the country club. Please request <strong>“Shimizu Birkner Wedding Block”</strong> when making a reservation to get the room block rates ($129 / room) for this hotel. Please call for reservations by March.</p>
-              <a href="http://doubletree3.hilton.com/en/hotels/massachusetts/doubletree-by-hilton-hotel-boston-andover-BOSORDT/index.html" target="_blank" class="btn"> About Double Tree
+              <a href="http://doubletree3.hilton.com/en/hotels/massachusetts/doubletree-by-hilton-hotel-boston-andover-BOSORDT/index.html" target="_blank" class="btn"> The Hotel
               </a>
               </div>
             </div>
@@ -294,14 +311,14 @@
     <section id="party" class="bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center animated wow fadeIn">
                     <h2 class="section-heading">The Wedding Crew</h2>
                     <h3 class="section-subheading">Who you’ll party with.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/satori.jpg" class="img-responsive img-circle" alt="">
                         <h4>Satori Shimizu</h4>
                         <p class="sub">Maid of Honor</p>
@@ -311,7 +328,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/todd.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Todd Fitzgerald</h4>
                         <p class="sub">Best Man</p>
@@ -323,7 +340,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/charlotte.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Charlotte Zawel</h4>
                         <p class="sub">Bridesmaid</p> 
@@ -333,15 +350,16 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/marc.jpeg" class="img-responsive img-circle" alt="marc zawel">
                         <h4>Marc Zawel</h4>
                         <p class="sub">Groomsman</p> 
+                        <p>Marc was the first addition to the Birkner clan. He’s always been a guru for travel advice from where booga katooga to not not doing cobra-blood shots.</p>
                     </div>
                 </div>
 
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/lily.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Lily Zawel</h4>
                         <p class="sub">Flower Girl</p> 
@@ -352,7 +370,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/genevieve.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Genevieve Genesevich</h4>
                         <p class="sub">Bridesmaid</p> 
@@ -360,7 +378,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/scott.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Scott Genesevich</h4>
                         <p class="sub">Groomsman</p> 
@@ -370,7 +388,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/camden.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Camden Genesevich</h4>
                         <p class="sub">Ring Bearer</p>
@@ -381,7 +399,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/robby.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Robby Barnes</h4>
                         <p class="sub">Groomsman</p> 
@@ -391,7 +409,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/lauren.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Lauren Shively</h4>
                         <p class="sub">Bridesmaid</p> 
@@ -401,7 +419,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/marie.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Marie Otsuka</h4>
                         <p class="sub">Bridesmaid</p> 
@@ -413,7 +431,7 @@
             </div>
            <div class="row">
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/jose.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Jose Nieblas</h4>
                         <p class="sub">Groomsman</p> 
@@ -423,7 +441,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="member">
+                    <div class="member animated wow fadeInDown" data-wow-delay=".2s">
                         <img src="img/team/kris.jpeg" class="img-responsive img-circle" alt="">
                         <h4>Kris Reichlen</h4>
                         <p class="sub">Usher</p> 
@@ -442,7 +460,7 @@
     <section id="registry">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center animated wow fadeIn">
                 <h2 class="section-heading">Registry</h2>
                 <h3 class="section-subheading">Gifts for home and abroad.</h3>
               </div>
@@ -458,7 +476,7 @@
                     <h4>Honeymoon Fund</h4>
                     <p>Don’t see a gift that you see fit? Please help us fund our honeymoon to South America! We are planning on going hiking in beautiful world of Patagonia for five days and then winding down at Mendoza, Argentina with some great wine, food and relaxation!
                     </p>
-                    <a href="www.venmo.com/Minori-Shimizu" target="_blank" class="btn">Fund our honeymoon</a>
+                    <a href="https://cash.me/$MinoriandPaul" target="_blank" class="btn">Fund our honeymoon</a>
                  </div>
             </div>
     </section>

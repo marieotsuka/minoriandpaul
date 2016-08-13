@@ -169,7 +169,7 @@ p.sub{
 
 .map{
   max-width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 3px solid #fff;
 }
 
@@ -485,7 +485,7 @@ section h3.section-subheading {
     margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
-    margin-top: 38px;
+    margin-top: 42px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
