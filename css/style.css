@@ -662,6 +662,10 @@ body {
   .collapse.in{
       display:block !important;
   }
+
+  section h2.section-heading {
+    font-size: 1.8em;
+  }
 }
 
 /*hero on mobile*/

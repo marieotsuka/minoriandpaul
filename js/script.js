@@ -4,7 +4,7 @@ $(document).ready(function(){
   wow = new WOW(
       {
       animateClass: 'animated',
-      mobile: false,
+      mobile: true,
       offset: 100
     }
   );
