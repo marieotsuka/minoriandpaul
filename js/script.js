@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 
   var root = $('html, body'); 
-  $('nav a, #scrollToTop a').click(function() {
+  $('nav a, #scrollToTop a, .down').click(function() {
     var href = $.attr(this, 'href');
     root.animate({
         scrollTop: $(href).offset().top

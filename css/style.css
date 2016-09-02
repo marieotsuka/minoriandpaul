@@ -38,7 +38,7 @@ a:focus,
 a:active,
 a.active {
   background: inherit;
-  opacity: .85;
+  opacity: .7;
 }
 h1,
 h2,
@@ -245,7 +245,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-  background-color: #f87a62;
+  background-color: rgba(248, 122, 98, 0.3);
   color: white;
 }
 
@@ -271,6 +271,11 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #f87a62;
 }
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #f87a62;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: rgba(255,255,255,.8);
