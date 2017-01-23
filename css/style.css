@@ -68,12 +68,15 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(../img/sakura.png) no-repeat top right fixed;
+  background-size: 50%;
 }
 
 h1{
-  color: #47435b;
   font-weight: 100;
   font-size: 3em;
+  letter-spacing: 5px;
+  padding-bottom: 15px;
 }
 
 span.br{
@@ -89,6 +92,11 @@ h4 {
   margin: 15px 0 5px 0;
   font-size: 15px;
   font-weight: 500;
+}
+
+#proposal {
+   background: url(../img/sakura2.png) no-repeat top right fixed;
+   background-size: 35%;
 }
 
 @media (max-width: 996px) {
@@ -110,6 +118,10 @@ h4 {
 
 
 p.intro{
+  border-top: 2px dotted #f87a62;
+  padding-top: 15px;
+  width: 500px;
+  margin: auto;
   margin-bottom: 0;
 }
 
@@ -176,7 +188,7 @@ p.sub{
 .btn {
   background: transparent;
   color:  #f87a62;
-  border: 2px solid #f87a62;
+  border: 2px dotted #f87a62;
   font-family: "museo-slab", Georgia, serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -254,7 +266,7 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 2px;
-  color: #f87a62;
+  color: #47435b;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
